@@ -1,4 +1,4 @@
-#ifndef __STM8S_UART_H // include guard
+#ifndef __STM8S_UART_H  // include guard
 #define __STM8S_UART_H
 
 #define UART1_BASE 0x5230
@@ -27,4 +27,4 @@
 #define UART1_GTR *(unsigned char*)(UART1_BASE + UARTx_GTR_OFFSET)
 #define UART1_PSCR *(unsigned char*)(UART1_BASE + UARTx_PSCR_OFFSET)
 
-#endif // include guard
+#endif  // include guard

@@ -1,4 +1,4 @@
-#ifndef __STM8S_CLK_H // include guard
+#ifndef __STM8S_CLK_H  // include guard
 #define __STM8S_CLK_H
 
 #define CLK_BASE 0x50C0
@@ -29,4 +29,4 @@
 #define CLK_HSITRIMR *(unsigned char*)(CLK_BASE + CLK_HSITRIMR_OFFSET)
 #define CLK_SWIMCCR *(unsigned char*)(CLK_BASE + CLK_SWIMCCR_OFFSET)
 
-#endif // include guard
+#endif  // include guard

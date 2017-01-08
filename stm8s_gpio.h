@@ -1,4 +1,4 @@
-#ifndef __STM8S_GPIO_H // include guard
+#ifndef __STM8S_GPIO_H  // include guard
 #define __STM8S_GPIO_H
 
 #define PA_BASE 0x5000
@@ -53,4 +53,4 @@
 #define PF_CR1 *(unsigned char*)(PF_BASE + Px_CR1_OFFSET)
 #define PF_CR2 *(unsigned char*)(PF_BASE + Px_CR2_OFFSET)
 
-#endif // include guard
+#endif  // include guard
